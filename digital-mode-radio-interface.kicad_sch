@@ -1,0 +1,653 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a0d4bcf6-6cac-4e92-853e-9083f008b231")
+	(paper "USLetter")
+	(title_block
+		(title "Digital Modes - Radio Interface")
+		(rev "0.96")
+		(company "VA7DBI")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 78.74 33.02) (xy 45.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 199 0 0 1)
+		)
+		(uuid "26e5ea3f-0a6f-48ad-9d0b-c0abb9d62f33")
+	)
+	(polyline
+		(pts
+			(xy 55.88 71.12) (xy 64.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3492d5c0-16cc-4bf9-a157-adff162948f2")
+	)
+	(polyline
+		(pts
+			(xy 173.99 48.26) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 134 0 1)
+		)
+		(uuid "37077a19-edb9-4d29-b1c1-f3e6ec5a21e8")
+	)
+	(polyline
+		(pts
+			(xy 45.72 33.02) (xy 45.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 199 0 0 1)
+		)
+		(uuid "476c29e7-7006-4578-8d83-faa2aa1b3fb3")
+	)
+	(polyline
+		(pts
+			(xy 109.22 60.96) (xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 124 62 160 1)
+		)
+		(uuid "4dedd5c4-03e6-4cf0-9826-b2b40397d8ec")
+	)
+	(polyline
+		(pts
+			(xy 64.77 82.55) (xy 87.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5456713d-6393-4bd6-85c8-c9fe0661c779")
+	)
+	(polyline
+		(pts
+			(xy 109.22 48.26) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 124 62 160 1)
+		)
+		(uuid "560fd61b-ea1f-4b7e-b199-786cd482fff3")
+	)
+	(polyline
+		(pts
+			(xy 64.77 67.31) (xy 64.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62da1305-bacc-4bc9-bcbe-56b71314b2f2")
+	)
+	(polyline
+		(pts
+			(xy 55.88 67.31) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78edef98-cad2-4429-bc28-68f9e9265892")
+	)
+	(polyline
+		(pts
+			(xy 104.14 60.96) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 124 62 160 1)
+		)
+		(uuid "8eda9c98-7661-4994-8545-35f596ac56cd")
+	)
+	(polyline
+		(pts
+			(xy 160.02 48.26) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 134 0 1)
+		)
+		(uuid "8f8d9ef5-e231-4331-8bd1-d3210b532a3e")
+	)
+	(polyline
+		(pts
+			(xy 147.32 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 134 0 1)
+		)
+		(uuid "a38eb6dc-a5bc-41cc-8c75-7908949e2182")
+	)
+	(polyline
+		(pts
+			(xy 138.43 33.02) (xy 138.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 199 0 0 1)
+		)
+		(uuid "a8abdb73-e185-48b6-b4ae-032cb22be3f4")
+	)
+	(polyline
+		(pts
+			(xy 173.99 73.66) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 134 0 1)
+		)
+		(uuid "ba79c2bc-a37b-41ad-a0ce-95dcdf9185c7")
+	)
+	(polyline
+		(pts
+			(xy 101.6 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 124 62 160 1)
+		)
+		(uuid "bcc0e6c2-9266-46e3-ae1a-6c784f45f8a6")
+	)
+	(polyline
+		(pts
+			(xy 127 81.28) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1435f1-9def-4682-9e3d-b67973822570")
+	)
+	(polyline
+		(pts
+			(xy 64.77 71.12) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac092b3-c048-4960-ad44-cd8bdc15dbcc")
+	)
+	(polyline
+		(pts
+			(xy 64.77 60.96) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23e74d1-2f50-4b5d-882e-45ceca3d519c")
+	)
+	(polyline
+		(pts
+			(xy 104.14 33.02) (xy 138.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 199 0 0 1)
+		)
+		(uuid "f4d08d8f-be26-48c7-b7f5-d3917876097a")
+	)
+	(text_box "Computer"
+		(exclude_from_sim no)
+		(at 21.59 67.31 0)
+		(size 12.7 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0b25ca34-3b20-4f94-b1e7-31200e71963b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 127 40.64 0)
+		(size 33.02 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "37ff0235-3b14-4f50-8790-feb3fc5c5f10")
+	)
+	(text_box "Radio"
+		(exclude_from_sim no)
+		(at 165.1 60.96 0)
+		(size 17.78 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "40411ff3-79c4-4a9b-a37d-6ba2f5911cfc")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 127 77.47 0)
+		(size 20.32 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "444e3787-eed4-4092-a428-f1d0539531c0")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 35.56 62.23 0)
+		(size 20.32 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "54f3226e-7abc-4aae-acab-cda1dd8f4f6f")
+	)
+	(text_box "Audio Codec"
+		(exclude_from_sim no)
+		(at 87.63 77.47 0)
+		(size 13.97 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6cb39331-aac8-4464-972f-8e75f2b0f739")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 78.74 25.4 0)
+		(size 25.4 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b1db22ed-5354-4498-91b1-5b896531cb19")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 85.09 55.88 0)
+		(size 19.05 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e5dee542-b479-4ef2-876e-bb5c7903b31d")
+	)
+	(label "AF IN {slash} AF OUT"
+		(at 149.86 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0da30699-ff88-40e2-b75a-0f6203ae2c66")
+	)
+	(label "+5V {slash} GND"
+		(at 106.68 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "406a78d3-0e4a-4689-a68c-ddbb0be580e8")
+	)
+	(label "+5VD {slash} GNDD"
+		(at 45.72 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40b97596-4ee2-4144-84c7-67da9326e6c5")
+	)
+	(label "USB1"
+		(at 58.42 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3d2163-a433-4469-b476-c4396b947c98")
+	)
+	(label "TXD {slash} RXD {slash} CTS {slash} DTR"
+		(at 105.41 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "742733e6-ae57-4ecf-9290-dc05ab983518")
+	)
+	(label "USB2"
+		(at 58.42 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a013f349-1fb5-43ef-a899-a00490a66353")
+	)
+	(label "Audio IN {slash} Audio OUT"
+		(at 102.87 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3cbc0ae-795e-426b-814e-e54eb6ed5163")
+	)
+	(label "COS {slash} PTT {slash} CRX {slash} CTX"
+		(at 162.56 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e70a7a56-27b0-4be3-956f-baf965e61264")
+	)
+	(sheet
+		(at 35.56 66.04)
+		(size 20.32 8.89)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09c555a5-1bba-40e9-8ff5-2458ce056329")
+		(property "Sheetname" "USB"
+			(at 35.56 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 35.56 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital-mode-radio-interface"
+				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 43.18)
+		(size 33.02 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5be03843-bf2f-4035-a78f-735620bc1a32")
+		(property "Sheetname" "Command & Control Isolation"
+			(at 127 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface isolation.kicad_sch"
+			(at 127 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital-mode-radio-interface"
+				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 58.42)
+		(size 19.05 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74e4e8e2-a92b-448e-a5b4-a60ebc3dca8a")
+		(property "Sheetname" "USB - TTL"
+			(at 85.09 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TTL.kicad_sch"
+			(at 85.09 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital-mode-radio-interface"
+				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 81.28)
+		(size 20.32 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a62d7506-fe91-4265-bb9c-b5dde38a678b")
+		(property "Sheetname" "Audio Isolation"
+			(at 127 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 127 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital-mode-radio-interface"
+				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 27.94)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aacc300d-671a-4923-bc80-280628078a5d")
+		(property "Sheetname" "DC-DC Isolation"
+			(at 78.74 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC-DC.kicad_sch"
+			(at 78.74 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital-mode-radio-interface"
+				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
