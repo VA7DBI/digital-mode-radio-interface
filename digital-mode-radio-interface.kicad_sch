@@ -66,7 +66,7 @@
 	)
 	(polyline
 		(pts
-			(xy 64.77 82.55) (xy 87.63 82.55)
+			(xy 64.77 82.55) (xy 80.01 82.55)
 		)
 		(stroke
 			(width 0)
@@ -162,7 +162,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 82.55) (xy 127 82.55)
+			(xy 101.6 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -307,10 +307,10 @@
 		)
 		(uuid "54f3226e-7abc-4aae-acab-cda1dd8f4f6f")
 	)
-	(text_box "Audio Codec"
+	(text_box ""
 		(exclude_from_sim no)
-		(at 87.63 77.47 0)
-		(size 13.97 11.43)
+		(at 80.01 76.2 0)
+		(size 21.59 11.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -431,7 +431,7 @@
 		(uuid "a013f349-1fb5-43ef-a899-a00490a66353")
 	)
 	(label "Audio IN {slash} Audio OUT"
-		(at 102.87 82.55 0)
+		(at 102.87 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -525,6 +525,44 @@
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 78.74)
+		(size 21.59 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f837d65-f274-4a4b-8cdc-594a0aab134b")
+		(property "Sheetname" "Audio Codec"
+			(at 80.01 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 80.01 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital-mode-radio-interface"
+				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
+					(page "7")
 				)
 			)
 		)

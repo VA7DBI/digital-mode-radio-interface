@@ -1686,7 +1686,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "781f3079-ec41-4bde-a6d9-9555ba933982")
+			(uuid "781f3079-ec41-4bde-a6d9-9555ba933983")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -1752,7 +1752,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "95814f2c-6cea-4abb-bb0e-a34567e25479")
+			(uuid "95814f2c-6cea-4abb-bb0e-a34567e2547a")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -1818,10 +1818,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d0bba79-efd6-45ea-96b1-37e980d43345")
+			(uuid "9d0bba79-efd6-45ea-96b1-37e980d43346")
 		)
 		(pin "2"
-			(uuid "1d485df9-3169-4840-a86a-ca09b2097b54")
+			(uuid "1d485df9-3169-4840-a86a-ca09b2097b55")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -1958,10 +1958,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d0bba79-efd6-45ea-96b1-37e980d43345")
+			(uuid "9d0bba79-efd6-45ea-96b1-37e980d43347")
 		)
 		(pin "2"
-			(uuid "1d485df9-3169-4840-a86a-ca09b2097b54")
+			(uuid "1d485df9-3169-4840-a86a-ca09b2097b56")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -2025,16 +2025,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "dda123b3-86c1-40b8-a15e-33bb1febe832")
+			(uuid "dda123b3-86c1-40b8-a15e-33bb1febe833")
 		)
 		(pin "2"
-			(uuid "1db4fb22-9d6e-487a-9259-2b4063704466")
+			(uuid "1db4fb22-9d6e-487a-9259-2b4063704467")
 		)
 		(pin "4"
-			(uuid "c714a5c7-6e50-42b8-af2d-0bcac433616e")
+			(uuid "c714a5c7-6e50-42b8-af2d-0bcac433616f")
 		)
 		(pin "1"
-			(uuid "fd4abf70-abc6-4ecd-95ec-3eff5a0d6a7c")
+			(uuid "fd4abf70-abc6-4ecd-95ec-3eff5a0d6a7d")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -2172,13 +2172,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "a3feba04-1407-41b0-ab40-b7b106123f75")
+			(uuid "a3feba04-1407-41b0-ab40-b7b106123f76")
 		)
 		(pin "1"
-			(uuid "6e61f23c-5c55-4172-9eeb-87b1f5959799")
+			(uuid "6e61f23c-5c55-4172-9eeb-87b1f595979a")
 		)
 		(pin "2"
-			(uuid "dad2807b-50f0-45de-b3b4-739948d1223c")
+			(uuid "dad2807b-50f0-45de-b3b4-739948d1223d")
 		)
 		(instances
 			(project "digital-mode-radio-interface"

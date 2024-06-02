@@ -5092,16 +5092,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "ae2cdb98-e51b-4fd2-b4f0-b0068754235a")
+			(uuid "ae2cdb98-e51b-4fd2-b4f0-b0068754235b")
 		)
 		(pin "1"
-			(uuid "7244d58f-1bd1-4dc0-9f58-930708baa2be")
+			(uuid "7244d58f-1bd1-4dc0-9f58-930708baa2bf")
 		)
 		(pin "2"
-			(uuid "c67bfe99-c4d3-46b2-bf24-5bfa1e026d73")
+			(uuid "c67bfe99-c4d3-46b2-bf24-5bfa1e026d74")
 		)
 		(pin "3"
-			(uuid "983ede3c-62d3-4b3d-a9a1-8003a494ac7b")
+			(uuid "983ede3c-62d3-4b3d-a9a1-8003a494ac7c")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -5169,13 +5169,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "50c8dd72-4d27-4489-9548-9ec5b6b74722")
+			(uuid "50c8dd72-4d27-4489-9548-9ec5b6b74723")
 		)
 		(pin "1"
-			(uuid "9936b6ca-f011-45d1-8039-80b9d8c8b78a")
+			(uuid "9936b6ca-f011-45d1-8039-80b9d8c8b78b")
 		)
 		(pin "2"
-			(uuid "e4305f10-ce4a-4591-9008-2ed08e3cb0a3")
+			(uuid "e4305f10-ce4a-4591-9008-2ed08e3cb0a4")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -5311,13 +5311,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "50c8dd72-4d27-4489-9548-9ec5b6b74722")
+			(uuid "50c8dd72-4d27-4489-9548-9ec5b6b74724")
 		)
 		(pin "1"
-			(uuid "9936b6ca-f011-45d1-8039-80b9d8c8b78a")
+			(uuid "9936b6ca-f011-45d1-8039-80b9d8c8b78c")
 		)
 		(pin "2"
-			(uuid "e4305f10-ce4a-4591-9008-2ed08e3cb0a3")
+			(uuid "e4305f10-ce4a-4591-9008-2ed08e3cb0a5")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -5669,10 +5669,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddf76469-bdc9-4577-892d-2db0b64677b0")
+			(uuid "ddf76469-bdc9-4577-892d-2db0b64677b1")
 		)
 		(pin "2"
-			(uuid "06b71a83-8ef4-4fe4-9f79-dd2cfd03fa04")
+			(uuid "06b71a83-8ef4-4fe4-9f79-dd2cfd03fa05")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
@@ -5740,13 +5740,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "50c8dd72-4d27-4489-9548-9ec5b6b74722")
+			(uuid "50c8dd72-4d27-4489-9548-9ec5b6b74725")
 		)
 		(pin "1"
-			(uuid "9936b6ca-f011-45d1-8039-80b9d8c8b78a")
+			(uuid "9936b6ca-f011-45d1-8039-80b9d8c8b78d")
 		)
 		(pin "2"
-			(uuid "e4305f10-ce4a-4591-9008-2ed08e3cb0a3")
+			(uuid "e4305f10-ce4a-4591-9008-2ed08e3cb0a6")
 		)
 		(instances
 			(project "digital-mode-radio-interface"
