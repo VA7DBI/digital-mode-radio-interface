@@ -945,7 +945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48d017a2-ce70-44d7-8b95-dba8c6f43207")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 83.566 44.704 0)
 			(effects
 				(font
@@ -999,7 +999,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/74e4e8e2-a92b-448e-a5b4-a60ebc3dca8a"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1014,7 +1014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "820b050c-110c-494f-838d-43cf38a6eca0")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 115.062 46.99 0)
 			(effects
 				(font
@@ -1093,7 +1093,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/74e4e8e2-a92b-448e-a5b4-a60ebc3dca8a"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)

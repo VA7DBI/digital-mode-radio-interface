@@ -33,7 +33,7 @@
 	)
 	(polyline
 		(pts
-			(xy 173.99 48.26) (xy 173.99 60.96)
+			(xy 179.07 48.26) (xy 179.07 60.96)
 		)
 		(stroke
 			(width 0)
@@ -118,7 +118,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.02 48.26) (xy 173.99 48.26)
+			(xy 160.02 48.26) (xy 179.07 48.26)
 		)
 		(stroke
 			(width 0)
@@ -129,7 +129,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 83.82) (xy 173.99 83.82)
+			(xy 147.32 83.82) (xy 179.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -151,7 +151,7 @@
 	)
 	(polyline
 		(pts
-			(xy 173.99 73.66) (xy 173.99 83.82)
+			(xy 179.07 72.39) (xy 179.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -250,10 +250,10 @@
 		)
 		(uuid "37ff0235-3b14-4f50-8790-feb3fc5c5f10")
 	)
-	(text_box "Radio"
+	(text_box ""
 		(exclude_from_sim no)
 		(at 165.1 60.96 0)
-		(size 17.78 12.7)
+		(size 25.4 11.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -679,6 +679,44 @@
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 63.5)
+		(size 25.4 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f540b09a-309c-40a1-a17d-7db164519b80")
+		(property "Sheetname" "Radio Interface"
+			(at 165.1 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio_iface.kicad_sch"
+			(at 165.1 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital-mode-radio-interface"
+				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231"
+					(page "8")
 				)
 			)
 		)

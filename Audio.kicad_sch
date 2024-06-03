@@ -1723,7 +1723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c220128-3ada-418a-bf92-2c968ea50d3b")
-		(property "Reference" "C10"
+		(property "Reference" "C17"
 			(at 154.432 102.87 0)
 			(effects
 				(font
@@ -1777,7 +1777,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "C10")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1924,7 +1924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5be78572-6c6f-4ba1-8086-0125047cd5af")
-		(property "Reference" "C8"
+		(property "Reference" "C18"
 			(at 156.972 43.18 0)
 			(effects
 				(font
@@ -1978,7 +1978,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "C8")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1993,7 +1993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a900d27-937f-4f45-9566-96a2a8b81139")
-		(property "Reference" "T2"
+		(property "Reference" "T1"
 			(at 124.714 109.474 0)
 			(effects
 				(font
@@ -2059,7 +2059,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "T2")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -2074,7 +2074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baf78d95-2a59-4bf7-9ad2-22b39265b5d2")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 78.74 110.49 90)
 			(effects
 				(font
@@ -2126,7 +2126,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2141,7 +2141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfd262b2-f20c-4080-ac02-a5ff78eed126")
-		(property "Reference" "T1"
+		(property "Reference" "T2"
 			(at 124.968 52.832 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "T1")
+					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -2222,7 +2222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df9ac94d-885c-4644-b166-daa10a0f71af")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 151.384 67.564 0)
 			(effects
 				(font
@@ -2279,7 +2279,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "RV1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -2294,7 +2294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef6ef41e-a9af-4aea-b1e2-f49e73d53bd6")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 141.478 124.46 0)
 			(effects
 				(font
@@ -2351,7 +2351,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -2366,7 +2366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f98ccc23-b96f-4dd1-aa36-f8ac5b1057fa")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 97.79 53.848 90)
 			(effects
 				(font
@@ -2418,7 +2418,7 @@
 		(instances
 			(project "digital-mode-radio-interface"
 				(path "/a0d4bcf6-6cac-4e92-853e-9083f008b231/a62d7506-fe91-4265-bb9c-b5dde38a678b"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)

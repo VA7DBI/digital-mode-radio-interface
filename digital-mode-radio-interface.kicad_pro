@@ -600,6 +600,10 @@
     [
       "6f837d65-f274-4a4b-8cdc-594a0aab134b",
       "Audio Codec"
+    ],
+    [
+      "f540b09a-309c-40a1-a17d-7db164519b80",
+      "Radio Interface"
     ]
   ],
   "text_variables": {}
