@@ -25,14 +25,14 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Run ERC
       run: |
         make -C Hardware erc
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ERC_Output
         path: Fabrication
@@ -43,14 +43,14 @@ jobs:
     needs: ERC
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Run DRC
       run: |
         make -C Hardware drc
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: DRC_Output
         path: Fabrication
@@ -62,7 +62,7 @@ jobs:
     needs: ERC
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Run schematic stuff
       run: |
@@ -85,7 +85,7 @@ jobs:
     needs: DRC
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Run PCB stuff
       run: |
@@ -93,7 +93,7 @@ jobs:
 
     - name: Retrieve results
       if: ${{ always() }}
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: FabPCB_Output
         path: |
