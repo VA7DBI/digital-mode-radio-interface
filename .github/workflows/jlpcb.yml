@@ -29,7 +29,7 @@ jobs:
 
     - name: Run ERC
       run: |
-        make -C Hardware erc
+        make -C erc
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
@@ -47,7 +47,7 @@ jobs:
 
     - name: Run DRC
       run: |
-        make -C Hardware drc
+        make -C drc
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
@@ -66,7 +66,7 @@ jobs:
 
     - name: Run schematic stuff
       run: |
-        make -C Hardware sch_fab
+        make -C sch_fab
 
     - name: Retrieve results
       if: ${{ always() }}
@@ -75,7 +75,7 @@ jobs:
         name: FabSch_Output
         path: |
           Fabrication/
-          Hardware/kibot_error.log
+          kibot_error.log
         if-no-files-found: warn
 
   FabPCB:
@@ -89,7 +89,7 @@ jobs:
 
     - name: Run PCB stuff
       run: |
-        make -C Hardware pcb_fab
+        make -C pcb_fab
 
     - name: Retrieve results
       if: ${{ always() }}
@@ -98,5 +98,5 @@ jobs:
         name: FabPCB_Output
         path: |
           Fabrication/
-          Hardware/kibot_error.log
+          kibot_error.log
         if-no-files-found: warn
