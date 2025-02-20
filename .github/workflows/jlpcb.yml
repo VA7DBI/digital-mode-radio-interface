@@ -32,7 +32,7 @@ jobs:
         [ -f *.sch ] && kiplot  -d Fabrication -s update_xml,run_drc -i
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ERC_Output
         path: Fabrication
@@ -50,7 +50,7 @@ jobs:
         [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s update_xml,run_erc -i
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: DRC_Output
         path: Fabrication
@@ -69,7 +69,7 @@ jobs:
         [ -f *.sch ] && kiplot  -d Fabrication -s run_drc,run_erc print_sch
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: FabSch_Output
         path: Fabrication
@@ -88,7 +88,7 @@ jobs:
         [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all print_front gerbers
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: FabPCB_Output
         path: Fabrication
