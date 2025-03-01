@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a0d4bcf6-6cac-4e92-853e-9083f008b231")
 	(paper "USLetter")
 	(title_block
@@ -10,6 +10,166 @@
 		(company "VA7DBI")
 	)
 	(lib_symbols)
+	(text_box "Computer"
+		(exclude_from_sim no)
+		(at 21.59 67.31 0)
+		(size 12.7 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0b25ca34-3b20-4f94-b1e7-31200e71963b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 127 40.64 0)
+		(size 33.02 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "37ff0235-3b14-4f50-8790-feb3fc5c5f10")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 165.1 60.96 0)
+		(size 25.4 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "40411ff3-79c4-4a9b-a37d-6ba2f5911cfc")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 127 77.47 0)
+		(size 20.32 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "444e3787-eed4-4092-a428-f1d0539531c0")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 35.56 62.23 0)
+		(size 20.32 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "54f3226e-7abc-4aae-acab-cda1dd8f4f6f")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 80.01 76.2 0)
+		(size 21.59 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6cb39331-aac8-4464-972f-8e75f2b0f739")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 78.74 25.4 0)
+		(size 25.4 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b1db22ed-5354-4498-91b1-5b896531cb19")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 85.09 55.88 0)
+		(size 19.05 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e5dee542-b479-4ef2-876e-bb5c7903b31d")
+	)
 	(polyline
 		(pts
 			(xy 78.74 33.02) (xy 45.72 33.02)
@@ -212,161 +372,8 @@
 		)
 		(uuid "f4d08d8f-be26-48c7-b7f5-d3917876097a")
 	)
-	(text_box "Computer"
-		(exclude_from_sim no)
-		(at 21.59 67.31 0)
-		(size 12.7 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "0b25ca34-3b20-4f94-b1e7-31200e71963b")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 127 40.64 0)
-		(size 33.02 16.51)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "37ff0235-3b14-4f50-8790-feb3fc5c5f10")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 165.1 60.96 0)
-		(size 25.4 11.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "40411ff3-79c4-4a9b-a37d-6ba2f5911cfc")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 127 77.47 0)
-		(size 20.32 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "444e3787-eed4-4092-a428-f1d0539531c0")
-	)
-	(text_box "\n"
-		(exclude_from_sim no)
-		(at 35.56 62.23 0)
-		(size 20.32 15.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "54f3226e-7abc-4aae-acab-cda1dd8f4f6f")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 80.01 76.2 0)
-		(size 21.59 11.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6cb39331-aac8-4464-972f-8e75f2b0f739")
-	)
-	(text_box "\n"
-		(exclude_from_sim no)
-		(at 78.74 25.4 0)
-		(size 25.4 16.51)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b1db22ed-5354-4498-91b1-5b896531cb19")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 85.09 55.88 0)
-		(size 19.05 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e5dee542-b479-4ef2-876e-bb5c7903b31d")
-	)
 	(label "AF IN {slash} AF OUT"
 		(at 149.86 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -377,7 +384,6 @@
 	)
 	(label "+5V {slash} GND"
 		(at 106.68 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -388,7 +394,6 @@
 	)
 	(label "+5VD {slash} GNDD"
 		(at 45.72 59.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -399,7 +404,6 @@
 	)
 	(label "USB1"
 		(at 58.42 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -410,7 +414,6 @@
 	)
 	(label "TXD {slash} RXD {slash} CTS {slash} DTR"
 		(at 105.41 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -421,7 +424,6 @@
 	)
 	(label "USB2"
 		(at 58.42 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -432,7 +434,6 @@
 	)
 	(label "Audio IN {slash} Audio OUT"
 		(at 102.87 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -443,7 +444,6 @@
 	)
 	(label "COS {slash} PTT {slash} CRX {slash} CTX"
 		(at 162.56 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -455,6 +455,10 @@
 	(sheet
 		(at 35.56 66.04)
 		(size 20.32 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -493,6 +497,10 @@
 	(sheet
 		(at 127 43.18)
 		(size 33.02 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -532,6 +540,10 @@
 	(sheet
 		(at 80.01 78.74)
 		(size 21.59 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -570,6 +582,10 @@
 	(sheet
 		(at 85.09 58.42)
 		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -608,6 +624,10 @@
 	(sheet
 		(at 127 81.28)
 		(size 20.32 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -647,6 +667,10 @@
 	(sheet
 		(at 78.74 27.94)
 		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -686,6 +710,10 @@
 	(sheet
 		(at 165.1 63.5)
 		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -726,4 +754,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

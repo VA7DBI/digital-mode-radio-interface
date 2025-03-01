@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "883ecac5-1a94-4924-9b37-e7e071b86863")
 	(paper "USLetter")
 	(title_block
@@ -11,7 +11,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -84,7 +86,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -96,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -145,11 +147,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -254,9 +261,9 @@
 					)
 				)
 				(arc
-					(start 1.524 -0.762)
+					(start -1.524 -0.762)
 					(mid 0 -0.3734)
-					(end -1.524 -0.762)
+					(end 1.524 -0.762)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -304,6 +311,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Switching:CRE1S0505S3C"
 			(exclude_from_sim no)
@@ -384,43 +392,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -5.334) (xy -0.635 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -2.794) (xy -0.635 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.254) (xy -0.635 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 2.286) (xy -0.635 1.016)
+						(xy -0.635 7.366) (xy -0.635 6.096)
 					)
 					(stroke
 						(width 0)
@@ -444,7 +416,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 7.366) (xy -0.635 6.096)
+						(xy -0.635 2.286) (xy -0.635 1.016)
 					)
 					(stroke
 						(width 0)
@@ -456,7 +428,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -7.366) (xy 0.635 -6.096)
+						(xy -0.635 -0.254) (xy -0.635 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -468,7 +440,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -4.826) (xy 0.635 -3.556)
+						(xy -0.635 -2.794) (xy -0.635 -4.064)
 					)
 					(stroke
 						(width 0)
@@ -480,7 +452,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -2.286) (xy 0.635 -1.016)
+						(xy -0.635 -5.334) (xy -0.635 -6.604)
 					)
 					(stroke
 						(width 0)
@@ -492,7 +464,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.254) (xy 0.635 1.524)
+						(xy 0.635 5.334) (xy 0.635 6.604)
 					)
 					(stroke
 						(width 0)
@@ -516,7 +488,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 5.334) (xy 0.635 6.604)
+						(xy 0.635 0.254) (xy 0.635 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.286) (xy 0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -4.826) (xy 0.635 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -7.366) (xy 0.635 -6.096)
 					)
 					(stroke
 						(width 0)
@@ -528,24 +536,6 @@
 				)
 			)
 			(symbol "CRE1S0505S3C_1_1"
-				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -564,17 +554,17 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 12.7 -5.08 180)
+				(pin power_in line
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "-VOUT"
+					(name "-VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -600,13 +590,36 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5VD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -678,7 +691,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -690,7 +703,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -721,12 +734,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -817,12 +835,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -924,6 +947,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
